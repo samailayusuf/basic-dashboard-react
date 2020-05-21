@@ -83,7 +83,7 @@ class Board extends Component {
     render() { 
         return ( 
             <div >
-                <div className="container">
+                <div className="container" style={{marginTop:0}}>
                     <div className="row">
                         <div className="col col-sm-4">
                             <div className="card shadow  mb-3 rounded" style={{width:300 ,}}>
