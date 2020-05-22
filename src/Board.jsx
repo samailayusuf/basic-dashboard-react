@@ -84,6 +84,9 @@ class Board extends Component {
     static contextType = BoardContext
 
     render() { 
+
+        const {brightTheme, lightMode, darkMode} = this.context
+        
         return ( 
             <div >
                 <div className="container" style={{marginTop:0}}>
