@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import './index.css'
+import { BoardContext } from './BoardContext';
+import './index.css';
+
 class Board extends Component {
     constructor(){
         super()
@@ -79,6 +81,7 @@ class Board extends Component {
         this.setState({flavor:this.state.flavor - 1})
     }
 
+    static contextType = BoardContext
 
     render() { 
         return ( 
