@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
+export const BoardContext = React.createContext();
 
-class BoardContext extends Component {
+class BoardContextProvider extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -21,4 +22,4 @@ class BoardContext extends Component {
     }
 }
 
-export const BoardContext = React.createContext()
+export default BoardContextProvider;

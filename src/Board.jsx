@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BoardContext } from './BoardContext';
+import {BoardContext}  from './BoardContext';
 import './index.css';
 
 class Board extends Component {
@@ -86,12 +86,13 @@ class Board extends Component {
     render() { 
 
         const {brightTheme, lightMode, darkMode} = this.context
-        
+        const mainTheme = brightTheme ? lightMode : darkMode
+
         return ( 
             <div >
                 <div className="container" style={{marginTop:0}}>
                     <div className="row">
-                        <div className="col col-sm-4">
+                        <div className="col col-sm-4" style={{backgroundColor: mainTheme.backgroundMode}}>
                             <div className="card shadow  mb-3 rounded" style={{width:300 ,}}>
                                 <div className="card-body">
                                     <h5 className="card-title text-center">The Quantity Of Butter</h5>
