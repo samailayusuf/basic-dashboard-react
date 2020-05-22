@@ -14,6 +14,7 @@ class BoardContext extends Component {
         return (
             <div>
                  <BoardContext.Provider value={{...this.state}}>
+                    {this.props.children}
                 </BoardContext.Provider>
             </div>
         )
