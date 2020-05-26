@@ -89,16 +89,16 @@ class Board extends Component {
         const mainTheme = brightTheme ? lightMode : darkMode
 
         return ( 
-            <div >
+            <div  style={{backgroundColor: mainTheme.body}}>
                 <div className="container" style={{marginTop:0}}>
                     <div className="row">
-                        <div className="col col-sm-4" style={{backgroundColor: mainTheme.backgroundMode}}>
-                            <div className="card shadow  mb-3 rounded" style={{width:300 ,}}>
+                        <div className="col col-sm-4">
+                            <div className="card shadow  mb-3 rounded" style={{width:300 , backgroundColor: mainTheme.backgroundMode, color:mainTheme.fontColor}}>
                                 <div className="card-body">
                                     <h5 className="card-title text-center">The Quantity Of Butter</h5>
                                     <p className="card-text text-center">{this.state.butterQuatity}</p>
-                                    <button className="butterButton1" onClick={this.incrementButterQty}>Update Quantity</button>
-                                    <button className="butterButton2" onClick={this.decrementButterQty}>Delete Value</button>
+                                    <button style={{backgroundColor:mainTheme.buttonMode, color:mainTheme.fontColor}} className="butterButton1" onClick={this.incrementButterQty}>Update Quantity</button>
+                                    <button style={{backgroundColor:mainTheme.buttonMode, color:mainTheme.fontColor}} className="butterButton2" onClick={this.decrementButterQty}>Delete Value</button>
                                 </div>
                             </div>
                         </div>

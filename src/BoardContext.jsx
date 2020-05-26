@@ -6,8 +6,8 @@ class BoardContextProvider extends Component {
         super(props)
         this.state = {
             brightTheme:true,
-            lightMode: {fontColor:"#5c5c5c", backgroundMode: "#dbdbdb", buttonMode:"#a3a3a3"},
-            darkMode: {fontColor:"#dbdbdb", backgroundMode:"#5c5c5c", buttonMode:"#5c5858"}
+            lightMode: {fontColor:"#5c5c5c", backgroundMode: "#dbdbdb", buttonMode:"#a3a3a3", body:"#ffffff"},
+            darkMode: {fontColor:"#dbdbdb", backgroundMode:"#5c5c5c", buttonMode:"#5c5858", body:"#121212"}
         }
         //this.changeMode = this.changeMode.bind(this);
     }
