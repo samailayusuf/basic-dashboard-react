@@ -103,7 +103,7 @@ class Board extends Component {
                             </div>
                         </div>
                         <div className="col col-sm-4">
-                            <div className="card shadow  mb-3 rounded" style={{width:300 ,}}>
+                            <div className="card shadow  mb-3 rounded" style={{width:300 , backgroundColor: mainTheme.backgroundMode, color:mainTheme.fontColor}}>
                                 <div className="card-body">
                                     <h5 className="card-title text-center">The Price Of Butter</h5>
                                     <p className="card-text text-center">{this.state.butterPrice}</p>
@@ -113,7 +113,7 @@ class Board extends Component {
                             </div>
                         </div>
                         <div className="col col-sm-4">
-                            <div className="card shadow  mb-3 rounded" style={{width:300 ,}}>
+                            <div className="card shadow  mb-3 rounded" style={{width:300 , backgroundColor: mainTheme.backgroundMode, color:mainTheme.fontColor}}>
                                 <div className="card-body">
                                     <h5 className="card-title text-center">The Quantity Of Crates</h5>
                                     <p className="card-text text-center">{this.state.sugarCrates}</p>
@@ -126,7 +126,7 @@ class Board extends Component {
 
                     <div className="row">
                         <div className="col col-sm-4">
-                            <div className="card shadow  mb-3 rounded" style={{width:300 ,}}>
+                            <div className="card shadow  mb-3 rounded" style={{width:300 , backgroundColor: mainTheme.backgroundMode, color:mainTheme.fontColor}}>
                                 <div className="card-body">
                                     <h5 className="card-title text-center">Flavor</h5>
                                     <p className="card-text text-center">{this.state.flavor}</p>
@@ -136,7 +136,7 @@ class Board extends Component {
                             </div>
                         </div>
                         <div className="col col-sm-4">
-                            <div className="card shadow  mb-3 rounded" style={{width:300 ,}}>
+                            <div className="card shadow  mb-3 rounded" style={{width:300 , backgroundColor: mainTheme.backgroundMode, color:mainTheme.fontColor}}>
                                 <div className="card-body">
                                     <h5 className="card-title text-center">Oil</h5>
                                     <p className="card-text text-center">{this.state.oil}</p>
@@ -146,7 +146,7 @@ class Board extends Component {
                             </div>
                         </div>
                         <div className="col col-sm-4">
-                            <div className="card shadow  mb-3 rounded" style={{width:300 ,}}>
+                            <div className="card shadow  mb-3 rounded" style={{width:300 , backgroundColor: mainTheme.backgroundMode, color:mainTheme.fontColor}}>
                                 <div className="card-body">
                                     <h5 className="card-title text-center">Eggs</h5>
                                     <p className="card-text text-center">{this.state.egg}</p>
