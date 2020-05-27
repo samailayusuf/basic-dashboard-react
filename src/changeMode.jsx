@@ -8,7 +8,7 @@ class ChangeMode extends Component{
         const {changeMode} = this.context
         return (
     
-                <button onClick={changeMode}>Theme Mode</button>
+                <button className="btn btn-primary" onClick={changeMode}>Theme Mode</button>
         
         )
 
